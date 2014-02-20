@@ -1,0 +1,21 @@
+{
+  "name": "amasad-console",
+  "description": "textarea-based browser console, similar to chrome dev tools.",
+  "version": "0.0.3",
+  "keywords": [
+    "console",
+    "repl",
+    "code"
+  ],
+  "main": "index.js",
+  "styles": [
+    "console.css"
+  ],
+  "dependencies": {
+    "amasad-history": "git://github.com/npmcomponent/amasad-history.git",
+    "component-grow": "git://github.com/npmcomponent/component-grow.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  },
+  "license": "MIT"
+}

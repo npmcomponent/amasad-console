@@ -1,9 +1,9 @@
-var History = require('history');
-var Emitter = require('emitter');
+var History = require('amasad-history');
+var Emitter = require('component-emitter');
 
 var template = require('./template');
-var grow = require('grow');
-var domify = require('domify');
+var grow = require('component-grow');
+var domify = require('component-domify');
 
 var lineRe = /\r\n|\r|\n/;
 
